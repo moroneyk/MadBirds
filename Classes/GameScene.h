@@ -22,6 +22,8 @@ private:
     
     void SpawnPipe( float dt );
     
+    bool onContactBegin(cocos2d::PhysicsContact &contact);
+    
     cocos2d::PhysicsWorld *sceneWorld;
     
     Pipe pipe;
