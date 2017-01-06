@@ -1,4 +1,5 @@
 #include "GameScene.h"
+#include "Definitions.h"
 #include "SimpleAudioEngine.h"
 
 USING_NS_CC;
@@ -50,6 +51,13 @@ bool GameScene::init()
     
     this->addChild(edgeNode);
     
+    this->schedule(schedule_selector(GameScene::SpawnPipe), PIPE_SPAWN_FREQUENCY * visibleSize.width);
+    
     return true;
 }
 
+
+void GameScene::SpawnPipe (float dt)
+{
+    pipe.SpawnPipe( 0 );
+}
