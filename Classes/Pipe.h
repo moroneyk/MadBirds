@@ -5,6 +5,7 @@
 
 class Pipe
 {
+    
 public:
     Pipe();
     void SpawnPipe( cocos2d::Layer *layer);

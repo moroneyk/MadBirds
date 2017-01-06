@@ -42,7 +42,7 @@ bool MainMenuScene::init()
     titleSprite->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height -titleSprite->getContentSize().height));
     this->addChild(titleSprite);
     
-    auto playItem = MenuItemImage::create("Play Button.png", "Play Button Cliecked.png", CC_CALLBACK_1(MainMenuScene::GoToGameScene, this));
+    auto playItem = MenuItemImage::create("Play Button.png", "Play Button Clicked.png", CC_CALLBACK_1(MainMenuScene::GoToGameScene, this));
     
     playItem->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height /2 + origin.y));
     
