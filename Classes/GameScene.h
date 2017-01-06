@@ -24,6 +24,12 @@ private:
     
     bool onContactBegin(cocos2d::PhysicsContact &contact);
     
+    bool onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event);
+    
+    void StopFlying (float dt);
+    
+    void update (float dt);
+    
     cocos2d::PhysicsWorld *sceneWorld;
     
     Pipe pipe;
