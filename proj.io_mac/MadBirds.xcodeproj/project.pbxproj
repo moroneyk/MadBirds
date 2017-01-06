@@ -93,6 +93,8 @@
 		00E1AADC1E1FC3C100614DDD /* Wing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00E1AA901E1FC3C100614DDD /* Wing.mp3 */; };
 		00E1AAE51E1FEAC600614DDD /* Pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E1AAE31E1FEAC600614DDD /* Pipe.cpp */; };
 		00E1AAE61E1FEAC600614DDD /* Pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E1AAE31E1FEAC600614DDD /* Pipe.cpp */; };
+		00E1AAEA1E1FFC7700614DDD /* Bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E1AAE81E1FFC7700614DDD /* Bird.cpp */; };
+		00E1AAEB1E1FFC7700614DDD /* Bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E1AAE81E1FFC7700614DDD /* Bird.cpp */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -244,6 +246,8 @@
 		00E1AA901E1FC3C100614DDD /* Wing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wing.mp3; sourceTree = "<group>"; };
 		00E1AAE31E1FEAC600614DDD /* Pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pipe.cpp; sourceTree = "<group>"; };
 		00E1AAE41E1FEAC600614DDD /* Pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pipe.h; sourceTree = "<group>"; };
+		00E1AAE81E1FFC7700614DDD /* Bird.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bird.cpp; sourceTree = "<group>"; };
+		00E1AAE91E1FFC7700614DDD /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -528,6 +532,8 @@
 			children = (
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
+				00E1AAE91E1FFC7700614DDD /* Bird.h */,
+				00E1AAE81E1FFC7700614DDD /* Bird.cpp */,
 				00E1AA641E1FC14200614DDD /* Definitions.h */,
 				00E1AA551E1FBC9800614DDD /* SplashScene.h */,
 				00E1AA541E1FBC9800614DDD /* SplashScene.cpp */,
@@ -825,6 +831,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				00E1AA561E1FBC9800614DDD /* SplashScene.cpp in Sources */,
 				00E1AA621E1FBE3700614DDD /* MainMenuScene.cpp in Sources */,
+				00E1AAEA1E1FFC7700614DDD /* Bird.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				00E1AA601E1FBE3700614DDD /* GameScene.cpp in Sources */,
@@ -839,6 +846,7 @@
 			files = (
 				00E1AA611E1FBE3700614DDD /* GameScene.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				00E1AAEB1E1FFC7700614DDD /* Bird.cpp in Sources */,
 				00E1AA571E1FBC9800614DDD /* SplashScene.cpp in Sources */,
 				00E1AA5F1E1FBE3700614DDD /* GameOverScene.cpp in Sources */,
 				00E1AAE61E1FEAC600614DDD /* Pipe.cpp in Sources */,
