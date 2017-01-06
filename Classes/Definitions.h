@@ -1,0 +1,12 @@
+#ifndef __DEFINITIONS_SCENE_H__
+#define __DEFINITIONS_SCENE_H__
+
+
+
+#define DISPLAY_TIME_SPLASH_SCENE 2
+#define TRASNSITION_TIME 0.5
+
+
+
+
+#endif // __DEFINITIONS_SCENE_H__
